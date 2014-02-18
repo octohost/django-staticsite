@@ -1,4 +1,4 @@
-FROM octohost/build-essential-saucy
+FROM octohost/python-3.3
 
 WORKDIR /srv/www
 

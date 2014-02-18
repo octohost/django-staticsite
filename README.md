@@ -18,4 +18,6 @@ Example site \(usually\) at [http://django.octohost.io](http://django.octohost.i
 
 Forked from: [https://github.com/dobarkod/django-staticsite](https://github.com/dobarkod/django-staticsite)
 
+Original README: [https://github.com/octohost/django-staticsite/blob/master/README-original.md](https://github.com/octohost/django-staticsite/blob/master/README-original.md)
+
 Great article here: [http://goodcode.io/blog/django-staticsite/](http://goodcode.io/blog/django-staticsite/)
