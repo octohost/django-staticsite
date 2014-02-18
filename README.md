@@ -1,9 +1,9 @@
 Django-staticsite
 ====
 
-Basic [Django](https://www.djangoproject.com/) container for octohost.
+Basic [Django-staticsite](https://www.djangoproject.com/) container for octohost.
 
-Clone this repo and use Django to develop your website.
+Clone this repo and use Django-staticsite to develop your website.
 
 Push this repo to your octohost:
 
@@ -20,4 +20,4 @@ Forked from: [https://github.com/dobarkod/django-staticsite](https://github.com/
 
 Original README: [https://github.com/octohost/django-staticsite/blob/master/README-original.md](https://github.com/octohost/django-staticsite/blob/master/README-original.md)
 
-Great article here: [http://goodcode.io/blog/django-staticsite/](http://goodcode.io/blog/django-staticsite/)
+Great intro article here: [http://goodcode.io/blog/django-staticsite/](http://goodcode.io/blog/django-staticsite/)
