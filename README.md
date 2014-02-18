@@ -1,50 +1,21 @@
-# A reusable Django static site
+Django-staticsite
+====
 
-This repository contains a Django project set up for simple static file
-serving, while still taking advantage of Django templating, and making it
-easy to add form processing (eg. for contact forms) and use other Django
-features.
+Basic [Django](https://www.djangoproject.com/) container for octohost.
 
-More info: http://goodcode.io/blog/django-staticsite/ ‎
+Clone this repo and use Django to develop your website.
 
-## Quickstart
+Push this repo to your octohost:
 
-Clone the repository:
+```
+git clone https://github.com/octohost/django-staticsite.git
+cd django-staticsite
+git remote add octohost git@ip.address.here:django-staticsite.git
+git push octohost master
+```
 
-    git clone https://github.com/senko/django-staticsite.git
+Example site \(usually\) at [http://django.octohost.io](http://django.octohost.io)
 
-Create a new Python virtual environment and install required packages:
+Forked from: [https://github.com/dobarkod/django-staticsite](https://github.com/dobarkod/django-staticsite)
 
-    mkvirtualenv --no-site-packages mysite
-    pip install -r django-staticsite/requirements.txt
-
-Run it:
-
-    cd django-staticsite/staticsite
-    python manage.py runserver
-
-That's it! The repository comes with an example index.html and CSS taken from
-purecess.io.
-
-To add your content, put the HTML templates to `pages/templates` and
-static assets to `pages/static`.
-
-## Deploying to Heroku
-
-If you already have Heroku app you want to deploy to, just add the Heroku
-remote repository:
-
-    git remote add heroku ...
-
-If you're creating a new Heroku app:
-
-    heroku apps:create mysite
-
-In both cases, deployment (and later updates) are as easy as:
-
-    git push heroku master:master
-
-## License
-
-Public domain. There isn't much to it, anyways, just a few config files.
-
+Great article here: [http://goodcode.io/blog/django-staticsite/](http://goodcode.io/blog/django-staticsite/)
