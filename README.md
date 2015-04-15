@@ -14,8 +14,6 @@ git remote add octohost git@ip.address.here:django-staticsite.git
 git push octohost master
 ```
 
-Example site \(usually\) at [http://django.octohost.io](http://django.octohost.io)
-
 Forked from: [https://github.com/dobarkod/django-staticsite](https://github.com/dobarkod/django-staticsite)
 
 Original README: [https://github.com/octohost/django-staticsite/blob/master/README-original.md](https://github.com/octohost/django-staticsite/blob/master/README-original.md)
